@@ -747,7 +747,7 @@
         <automation.framework.verion>4.3.1-SNAPSHOT</automation.framework.verion>
         <automation.framework.utills.version>4.3.0-SNAPSHOT</automation.framework.utills.version>
         <operadriver.version>0.8.1</operadriver.version>
-        <selenium.version>2.40.0</selenium.version>
+        <selenium.version>2.41.0</selenium.version>
     </properties>
     <pluginRepositories>
         <pluginRepository>
