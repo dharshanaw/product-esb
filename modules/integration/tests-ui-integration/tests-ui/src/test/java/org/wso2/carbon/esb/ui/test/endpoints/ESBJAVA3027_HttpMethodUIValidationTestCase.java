@@ -18,16 +18,9 @@ public class ESBJAVA3027_HttpMethodUIValidationTestCase extends ESBIntegrationUI
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
         super.init();
-       // driver = BrowserManager.getWebDriver();
-      //  driver.get(getLoginURL(ProductConstant.ESB_SERVER_NAME));
-
-
         WebDriver driver = BrowserManager.getWebDriver();
         driver.get(getLoginURL());
-
-     //   selenium = new WebDriverBackedSelenium(driver, getLoginURL());
-       // WebDriver driver = new FirefoxDriver();
-        String baseUrl = "https://10.100.1.105:9443/carbon/admin/login.jsp";
+        String baseUrl = getLoginURL();
         selenium = new WebDriverBackedSelenium(driver, baseUrl);
 
     }
